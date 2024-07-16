@@ -1,0 +1,94 @@
+{
+  "best_metric": 0.06645642220973969,
+  "best_model_checkpoint": "deepfake_vs_real_image_detection/checkpoint-5653",
+  "epoch": 1.0,
+  "eval_steps": 500,
+  "global_step": 5653,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.09,
+      "learning_rate": 9.196858825629128e-06,
+      "loss": 0.3071,
+      "step": 500
+    },
+    {
+      "epoch": 0.18,
+      "learning_rate": 8.304479742994825e-06,
+      "loss": 0.133,
+      "step": 1000
+    },
+    {
+      "epoch": 0.27,
+      "learning_rate": 7.412100660360522e-06,
+      "loss": 0.1082,
+      "step": 1500
+    },
+    {
+      "epoch": 0.35,
+      "learning_rate": 6.519721577726219e-06,
+      "loss": 0.0935,
+      "step": 2000
+    },
+    {
+      "epoch": 0.44,
+      "learning_rate": 5.627342495091915e-06,
+      "loss": 0.0796,
+      "step": 2500
+    },
+    {
+      "epoch": 0.53,
+      "learning_rate": 4.734963412457612e-06,
+      "loss": 0.0737,
+      "step": 3000
+    },
+    {
+      "epoch": 0.62,
+      "learning_rate": 3.842584329823309e-06,
+      "loss": 0.0728,
+      "step": 3500
+    },
+    {
+      "epoch": 0.71,
+      "learning_rate": 2.9502052471890063e-06,
+      "loss": 0.0677,
+      "step": 4000
+    },
+    {
+      "epoch": 0.8,
+      "learning_rate": 2.057826164554703e-06,
+      "loss": 0.0635,
+      "step": 4500
+    },
+    {
+      "epoch": 0.88,
+      "learning_rate": 1.1654470819203999e-06,
+      "loss": 0.0677,
+      "step": 5000
+    },
+    {
+      "epoch": 0.97,
+      "learning_rate": 2.7306799928609675e-07,
+      "loss": 0.0651,
+      "step": 5500
+    },
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.9787837412036551,
+      "eval_loss": 0.06645642220973969,
+      "eval_runtime": 96.4622,
+      "eval_samples_per_second": 98.702,
+      "eval_steps_per_second": 12.347,
+      "step": 5653
+    }
+  ],
+  "logging_steps": 500,
+  "max_steps": 5653,
+  "num_train_epochs": 1,
+  "save_steps": 500,
+  "total_flos": 1.4016828573477016e+19,
+  "trial_name": null,
+  "trial_params": null
+}
